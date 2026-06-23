@@ -1,0 +1,23 @@
+name: erw
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.4
+  - pandas>=2.2
+  - pyarrow>=15
+  - openpyxl>=3.1
+  - scipy>=1.13
+  - scikit-learn>=1.5
+  - statsmodels=0.14.6
+  - matplotlib>=3.8
+  - seaborn=0.13.2
+  - pip
+  - pip:
+      - lightgbm==4.6.0
+      - xgboost==3.2.0
+      - catboost==1.2.10
+      - shap==0.51.0
+      - numpyro==0.21.0
+      - jax==0.10.2
+      - ruptures==1.1.10

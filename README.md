@@ -76,29 +76,6 @@ Each `scripts/NN_*.py` stage can also be run directly with
 machine-learning experiments (deep and foundation time-series models) are
 intended for a GPU node; see `scripts/hpc/`.
 
-## Data availability
-
-Raw instrument files (sensor, resin, weather and chamber workbooks) are not
-redistributed in this repository because of their size and access conditions.
-The pipeline expects them under `data/`; processed Parquet caches are generated
-by `make data`. Researchers seeking the raw data should contact the trial
-operators. All derived result tables and figures are fully reproducible from the
-raw data with the code provided here.
-
-## Software components
-
-The analysis uses NumPy, pandas and scikit-learn throughout; statsmodels for
-power analysis; NumPyro/JAX for the hierarchical Bayesian model; LightGBM,
-XGBoost and CatBoost for the gradient-boosting baselines; and transformer
-foundation time-series models (Chronos, TimesFM, Moirai) used zero-shot for the
-forecasting benchmark. Uncertainty is quantified with distribution-free
-conformal prediction. See `requirements.txt` for pinned versions.
-
-## Citing this work
-
-If you use this code, please cite the relevant manuscript. BibTeX entries will
-be added here upon publication.
-
 ## License
 
 Released under the MIT License (see [`LICENSE`](LICENSE)).

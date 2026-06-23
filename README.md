@@ -2,26 +2,10 @@
 
 Reproducible analysis pipeline for a study of the **measurement, reporting and
 verification (MRV) limits of enhanced rock weathering (ERW)** at a fully
-instrumented field trial. The code supports two companion manuscripts that
-reach a common conclusion from different directions: at realistic field
-replication, the ERW signal sits near the detection floor, and verification is
-limited by soil heterogeneity rather than by the choice of measurement phase or
-statistical model.
-
-## Associated manuscripts
-
-1. *Enhanced rock weathering verification is detection-limited across
-   measurement phases: an aqueous-phase detection budget from a 12-plot
-   wollastonite–diopside field trial* — an aqueous/exchange-phase detection
-   budget, its convergence with the published solid-phase heterogeneity wall,
-   and a feedstock-attributed cation-exchange "CDR lag."
-2. *Forecastable but not detectable: a signal-to-noise and leakage-controlled
-   machine-learning study of enhanced rock weathering from soil sensors* — a
-   first-principles signal-to-noise budget, a leakage-controlled machine-learning
-   analysis (the *Detection–SNR consistency criterion*), and an honest
-   foundation-model forecasting benchmark.
-
-This repository contains the code and pipeline behind both manuscripts.
+instrumented field trial. It reaches a common conclusion from different
+directions: at realistic field replication, the ERW signal sits near the
+detection floor, and verification is limited by soil heterogeneity rather than
+by the choice of measurement phase or statistical model.
 
 ## The field trial
 
